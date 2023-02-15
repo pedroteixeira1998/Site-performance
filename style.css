@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.login-left > h1{
+    color: #fa0505;
+    font-size: 40pt;
+    /*#EFA010*/
+}
+
+.image-login{
+    width: 60vh;
+}
+
+.login-right{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #242330;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(10, 10, 10, 0.329);
+}
+  
+.card-login > h1{
+    color: #fa0505;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #3d3b55;
+    color: antiquewhite;
+    font-size: 12pt;
+    box-shadow:0px 10px 40px rgba(10, 10, 10, 0.329);
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.textfield > label{
+    color: antiquewhite;
+    margin-bottom: 10px;
+
+}
+
+.textfield ::placeholder{
+    color: rgb(131, 114, 114);
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #27253b;
+    background: #fa0505;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    opacity: 0.8;
+}
+
+      
+  
